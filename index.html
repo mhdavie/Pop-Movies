@@ -15,15 +15,20 @@
 <body>
     <h2>Pop Movies</h2>
 
-    <div>
-        <form id="form"> 
-            <input type="search" id="query" name="q" placeholder="Search...">
-            <button>Search</button>
-          </form>
-
-
+    <div class="input-container">
+        <input type="text" name="movie-name" id= "movie-name" placeholder="Search Fav Movie">
+        <img src="images/search.svg" alt="search icone" class=" searchIcon">
     </div>
 
+    <div class=" ShowOnlyFav">
+        <input type="checkbox" name="OnlyFav" id="OnlyFav">
+        <label for="OnlyFav"> This are my fav movies: </label>
+    </div>
 
+    <div class="AllMovies">
+
+    </div>
+   
+<script type="text/javascript" src="/script.js"></script>
 </body>
 </html>
